@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(to right, #5786a1, #9bbbeb);
+  font-family: 'Poppins', sans-serif;
+}
+#imagen-destacada {
+  width: 30%;
+  margin: 20px;
+  float: left;
+}
+#galeria-productos {
+  width: 60%;
+  float: left;
+}
+#carrito-compras {
+  width: 20%;
+  float: right;
+  background-color: #d2f8d2;
+  border-left: 2px solid #91c491;
+  height: 100%;
+  position: fixed;
+  top: 70px;
+  right: 0;
+  overflow-y: auto;
+}
